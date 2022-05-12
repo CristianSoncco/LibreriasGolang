@@ -1,3 +1,4 @@
+//Funcion que recibe formato de hora 20:20:20 y devuelve 08:20 p.m.
 func FormatHour24(phour string) (hourpm string) {
 	hourReturn := ""
 	ampm := "am"
